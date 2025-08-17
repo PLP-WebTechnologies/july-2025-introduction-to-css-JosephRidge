@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>House of Vintage</title>
+    <link rel="stylesheet" href="./assets/style/index.css">
+</head>
+
+<body>
+    <nav>
+        <a href="#mainCars"> main cars</a>
+        <a href="#costings"> in stock</a>
+        <a href="#customers"> customers</a>
+        <a href="#contactUs"> contact us</a>
+    </nav>
+    <h1 class="topic">House of Vintage</h1>
+    <p class="topic-decscription">Welcome to the house of Vintage vehicles.</p>
+
+    <section id="mainCars">
+
+        <img src="./assets/image/vintage1.jpg" alt="Lime Green vintage mini van by the ocean" srcset="" height="200"
+            width="200" />
+        <img src="./assets/image/vintage2.jpg" alt="Indian vintage mini van infront of art" srcset="" height="200"
+            width="200" />
+        <img src="./assets/image/vintage3.jpg" alt="Glossy orange vw 1200cc bettle" srcset="" height="200"
+            width="200" />
+        <img src="./assets/image/vintage4.jpg" alt="Front view of an orange 1995 Dodge viper" srcset="" height="200"
+            width="200" />
+
+    </section>
+    <section id="vintageCars">
+
+
+        <h1>Top 5 classics of all time</h1>
+        <ol type="square">
+            <li>
+                <strong> Ferrari 250 GTO</strong>
+                <br />
+                <p>
+                    When it comes to speed, beauty, and exclusivity, no car does it better
+                    than the Ferrari 250 GTO. Only 36 of these cars were built between
+                    1962 and 1964 and were extremely successful in racing circuits
+                    worldwide. Today, when examples of the Ferrari 250 GTO become
+                    available at auction, they command some of the highest hammer prices
+                    in automotive history.
+                </p>
+            </li>
+
+            <li>
+                <strong> Shelby Cobra</strong>
+
+                <br />
+                <p>
+                    The Shelby Cobra resulted from Carroll Shelby’s desire to create a racecar from a British roadster
+                    (the AC Ace) powered by big American muscle (from Ford engines). Built from 1962 until 1967,
+                    original Shelby Cobras are extremely rare and valuable, which is one reason why these cars are
+                    popular replications as kit cars.
+
+                </p>
+            </li>
+            <li>
+                <strong> Mercedes-Benz 300SL Gullwing</strong>
+                <br />
+                <p>
+                    Back when form followed function, the 1954-57 Mercedes-Benz 300SL necessitated the introduction of
+                    gullwing doors so that the bodywork could accommodate the car’s tube frame chassis. And the rest is
+                    history! Today, the 300SL Gullwing is one of the most recognizable cars ever made, and a prototype
+                    race car, the SLR Uhlenhaut Coupe, stands as the highest-priced auction car of all time when it sold
+                    for $142 million in 2022.
+                </p>
+            </li>
+
+            <li>
+                <strong> Jaguar E-Type</strong>
+                <br />
+                <p>
+                    Back when form followed function, the 1954-57 Mercedes-Benz 300SL necessitated the introduction of
+                    gullwing doors so that the bodywork could accommodate the car’s tube frame chassis. And the rest is
+                    history! Today, the 300SL Gullwing is one of the most recognizable cars ever made, and a prototype
+                    race car, the SLR Uhlenhaut Coupe, stands as the highest-priced auction car of all time when it sold
+                    for $142 million in 2022. </p>
+            </li>
+
+            <li>
+                <strong> Plymouth Hemi ‘Cuda</strong>
+                <br />
+                <p>
+                    Pontiac is often credited with sparking the muscle car wars with the 1964 GTO, but the 1970-74
+                    Plymouth Hemi ‘Cuda is the ultimate expression of a muscle car… and perhaps the greatest American
+                    car ever. With a 426 Hemi under the hood pumping out 425 horsepower, low production, and killer
+                    styling, it’s easy to see why the Hemi ‘Cuda is such a legend.
+
+            </li>
+            </ul>
+
+            <p>
+                ref:
+                <a href="https://www.velocityrestorations.com/blog/top-12-classic-cars-of-all-time/"
+                    target="_blank">read more</a>
+            </p>
+    </section>
+
+    <section id="costings">
+        <h1>Sample Vintage car prices</h1>
+        <table >
+            <tr>
+                <th>Name</th>
+                <th>year</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>JAGUAR E-TYPE V12</td>
+                <td>1973</td>
+                <td>£75,950
+                </td>
+            </tr>
+            <tr>
+                <td> JAGUAR MARK 2</td>
+                <td>1965</td>
+                <td>£20,000 </td>
+            </tr>
+            <tr>
+                <td>ASTON MARTIN VANTAGE VOLANTE X PACK</td>
+                <td>1987</td>
+                <td>£319,995 </td>
+            </tr>
+            <tr>
+                <td>MERCEDES-BENZ SL-CLASS 300SL</td>
+                <td>1988</td>
+                <td>£22,500 </td>
+            </tr>
+        </table>
+    </section>
+
+
+    <section id="customers">
+        <h1>Our happy customers</h1>
+
+       <div class="customer-clips">
+        <video controls width="500">
+            <source src="./assets//video/vintageVid.mp4" type="video/mp4">
+        </video>
+
+        <video controls width="500">
+            <source src="./assets//video/vintageVid2.mp4" type="video/mp4">
+        </video>
+       </div>
+
+    </section>
+    <section id="contactUs">
+        <Form>
+            <fieldset>
+                <legend>Reach Out to us</legend>
+                <label for="fname">Full Names:</label><br>
+                <input type="text" id="fname" name="fname" placeholder="Mr. John Doe" required autocomplete="on">
+                <br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" placeholder="email@example.com" required><br>
+                <label for="message">Message:</label>
+                <textarea name="message" id="message" rows="4" cols="80" placeholder="I would like to..."
+                    required></textarea> <br>
+                <button type="submit">submit</button>
+            </fieldset>
+        </Form>
+    </section>
+    <footer>
+        JR Vintage collection
+    </footer>
+</body>
+
+</html>
